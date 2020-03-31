@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./assets/icon/icon.ico" >
+   
+    <title>TEST Project</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top d-flex justify-content-start navbar-expand-lg navbar-dark bgcolor ">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span>
+                <i class="fa fa-bars" style="color:rgb(89, 128, 98); font-size:20px;"></i>
+            </span></button>
+        <a class="navbar-brand " href="./index.html">
+            <img class="img-fluid position-absolute mt-3 d-md-none d-lg-block" style="max-width: 70px; max-height: 70px;" src="./assets/Imgaes/LogoPIAIC.svg">
+           <div class="pl-lg-5 pt-lg-3">PIAIC</div> 
+        </a>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.piaic.org/howitworks">How It Works <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Components/signUp.html">Apply</a>
+                </li>
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Available Programs</a>
+                    <div class="dropdown-menu bgcolor" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="https://www.piaic.org/artificial-inteligence">Artificial Intelligeince</a>
+                        <a class="dropdown-item" href="https://www.piaic.org/cloud-native">Cloud Native And web Development</a>
+                        <a class="dropdown-item" href="https://www.piaic.org/block-chain">Blockchain</a>
+                        <a class="dropdown-item" href="https://www.piaic.org/quantum-computing">Quantum Computing</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <div class="dropdown-menu bgcolor" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="https://www.piaic.org/about">President</a>
+                        <a class="dropdown-item" href="https://www.piaic.org/managementcommittee">Management commitee</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <!-- INTRODUCTIon -->
+
+    <div class="row " style="background-color: #E4E2E3; ">
+        <div class="col-12 col-md-3 d-flex justify-content-center ">
+            <img class="align-self-center  img-fluid h-75 w-75 w-sm-50 h-sm-50   w-md-100 h-md-100 my-5"
+                src="./assets/Imgaes/PresdentPic.png" alt="President Pic" srcset="">
+        </div>
+        <div class="col-10 col-md-8 offset-2 offset-md-1 d-flex flex-column justify-content-center align-items-between">
+            <div class="h1 justify-content-end">
+                Presidential Initiative
+            </div>
+            <div class="h3">
+                for Artificial Intelligence & Computing (PIAIC)
+            </div>
+            <br>
+            <br>
+            <div>
+                The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by
+                adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We
+                want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing,
+                blockchain, augmented reality, and internet of things.
+            </div>
+            
+                <a href="./Components/signUp.html" class="btn text-light px-4 align-self-start" role="button" style="background-color: rgb(38, 117, 91);">
+                    Apply
+                </a>
+        </div>
+        
+        <br><br>
+
+    </div>
+
+
+    <!-- Available courses -->
+
+
+    <div class="d-flex flex-wrap mx-5 ">
+        <a class=" text-reset text-decoration-none" href="https://www.piaic.org/artificial-inteligence">
+        <div class="containers rounded shadow-lg p-2 m-3 " style=" color:#393D5C;">
+            <div class="head rounded" style="background-color: #393D5C;"></div>
+            <div class="text-center m-5">
+                    Artifical Intelligience
+                </div>
+            </div>
+        </a>
+        <a class=" text-reset text-decoration-none" href="https://www.piaic.org/cloud-native">
+        <div class="containers  rounded shadow-lg p-auto m-3 " style=" color:#E22D81;">
+            <div class="head rounded" style="background-color: #E22D81;"></div>
+            <div class="text-center pt-5 ">
+                    Cloud Native
+                </div>
+            </div>
+        </a>
+            <a class=" text-reset text-decoration-none" href="https://www.piaic.org/block-chain">
+        <div class="containers  rounded shadow-lg p-2 m-3 " style=" color:#F5D15B;">
+            <div class=" head rounded" style="background-color: #F5D15B;">
+            </div>
+            <div class="text-center p-5">
+                    Blockchain
+                </div>
+            </div>
+        </a>
+        <a class=" text-reset text-decoration-none" href="https://www.piaic.org/iot">
+        <div class="containers  rounded shadow-lg p-2 m-3 " style=" color:#1F918D;">
+            <div class="head rounded" style="background-color: #1F918D;"></div>
+            <div class="text-center p-5">
+                    Internet of things and AI</div>
+                </div>
+            </a>
+        <a class=" text-reset text-decoration-none" href="https://www.piaic.org/quantum-computing">
+        <div class="containers rounded shadow-lg p-2 m-3 " style=" color:#8EC7FF;">
+            <div class="head rounded" style="background-color: #8EC7FF;"></div>
+            <div class="text-center p-5">
+                    Quantum Computing
+                </div>
+            </div>
+        </a>
+        <a class=" text-reset text-decoration-none" href="https://www.piaic.org/5g">
+        <div class="containers  rounded shadow-lg p-2 m-3 " style=" color:#AF9136;">
+            <div class="head rounded" style="background-color: #AF9136;"></div>
+            <div class="text-center p-5">
+
+
+                SOftware engineering and 5G
+
+            </div>
+        </div>
+    </a>
+    </div>
+
+    <div style="background-color: #2B2929;">
+        <div class="d-flex flex-column">
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <video poster="./assets/Imgaes/posture.png" controls class="embed-responsive-item " src="./assets/videos/video1.webm" allowfullscreen></video>
+
+            </div>
+            <div class="h4 text-success py-3 pl-3 ">PIAIC Classes Coming Soon!</div>
+            <small class="text-light col-9 col-md-6 py-5">The mission of PIAIC is to reshape Pakistan by revolutionizing
+                education, research, and business by adopting latest, cutting-edge technologies.</small>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row h5 justify-content-center p-5">
+            Strategic Partners
+        </div>
+        
+            <div class="d-flex justify-content-center" >
+                <img class="img-fluid w-25 h-75" src="./assets/Imgaes/panacloudLogo.svg" style="max-width: 200px;" alt="panacloud logo">
+                <img class="img-fluid w-25 " src="./assets/Imgaes/psxlogo.png" style="max-height: 150px; max-width: 150px;" alt="psxlogo">
+                <img class="img-fluid w-25 h-75" src="./assets/Imgaes/saylaniLogo.png" alt="saylani logo" srcset="">
+            </div>
+       
+    </div>
+<!-- footer -->
+    <footer style="background-color: #202F39;">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-md-4">
+                    <div class="h5 text-light mb-5 pb-5 pt-3">
+                        Navigation
+                    </div>
+                    <div class="text-muted ">
+                        <a class="text-reset d-block text-decoration-none pb-1" href="./index.html
+                        ">Home </a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="./Components/signUp.html">Apply </a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/howitworks">How it works </a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/artificial-inteligence">Artificial Intelligience</a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/cloud-native">Cloud Native and Mobile
+                            Computing </a>
+                            <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/cloud-native">Blockchain</a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/iot">Internet Of Things </a>
+                        <a class="text-reset d-block text-decoration-none pb-1" href="https://www.piaic.org/about">About President </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="h6 text-light py-3">
+                        Locations
+                    </div>
+                    <div class="h6 text-light">
+                        PIAIC Headquarters
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                Plot 245/2M, block B,PECHS karchi Sindh Pakistan
+                            </p>
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                +92-315-8142789(as well on Whatsapp)
+                            </p>
+                        </i>
+                    </a>
+                    <div class="h6 text-light">
+                        PIAIC HELPLINE
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                +92-315-8142789(as well on Whatsapp)
+                            </p>
+                        </i>
+                    </a>
+                    <div class="h6 text-light">
+                        Connect With us
+                    </div>
+                    <a href="#">
+                        <i class="fab fa-facebook-square  p-3  green" style="font-size: 25px;" aria-hidden="true"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube p-3 green" style="font-size: 25px;" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <div class="h6 text-light py-3">
+                        Karachi Field Office
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                A-25, Bahadurabad Chowrangi, Karachi, Sindh 74800, Pakistan
+                            </p>
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                +92-311-1729526
+                            </p>
+                        </i>
+                    </a>
+                    <div class="h6 text-light">
+                        Rawalpindi Field Office
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3  text-muted">
+                                4th-B Rd, Satellite Town, Rawalpindi, Punjab 46300
+                            </p>
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                051-4940669 / 0336-6660215
+                            </p>
+                        </i>
+                    </a>
+                    <div class="h6 text-light">
+                        Islamabad Field Office
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3 text-muted">
+                                F-10 Markaz F 10/3 F-10, Islamabad, Islamabad Capital Territory
+                            </p>
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3  text-muted">
+                                051-2223191 (WhatsApp as well)
+                            </p>
+                        </i>
+                    </a>
+
+                    <div class="h6 text-light">
+                        Faisalabad Field Office
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt p-3 green" style="color: #05D88C;" aria-hidden="true">
+                            <p class="d-inline pl-3  text-muted">
+                                Saylani House, 3rd Floor, Lal Mill Chowk, Factory Area, Faisalabad, Punjab
+                            </p>
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone-alt p-3  green" aria-hidden="true">
+                            <p class="d-inline pl-3  text-muted">
+                                (041) 2417281 / 0337 8659969 (WhatsApp as well)
+                            </p>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+
+
+</body>
+
+</html>
