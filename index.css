@@ -1,33 +1,8 @@
-nav.bgcolor{
-     background: #34e89e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-;
-}
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
- 
-.dropdown .dropdown-menu a:hover
-{
-  color: #fff;
-  background: #34e89e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-;
-  
-}
-.containers{
-    width: 250px;
-    height: 200px;
-   margin-left: 20px;
-   
-}
-.head
-{
-    height: 30px;
-    width: auto;
-}
-.green{
-    color:#05D88C;
+
+
+.swiper-slide img{
+min-width: 80vw;
+min-height: 60vh;
+max-width: 80vw;
+max-height: 60vh;
 }
