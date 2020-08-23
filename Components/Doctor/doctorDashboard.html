@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../index.css" />
-    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
     <link rel="icon" href="../../Assets/Icon/icon.ico" />
     <title>Doctor Dashboard</title>
 
@@ -66,67 +66,219 @@
     </div>
   </nav>
 
-    <section style="margin: 10rem 0;  padding: 5vh;">
-        <div style="width: 30vw; height: fit-content;">
+    <div class="container" >
+
+      <div class="row">
+        <div class="col-6">
+          
          
-            <p class="d-inline mr-5">Doctor Dashboard</p>
+            <h4 class="d-inline mr-5 ">Doctor Dashboard</h4>
             <img src="../../Assets/Icon/Doctor.png" alt="Doctor pic" />
+           
             <h4>
-            Succesful Handled Cases
+              Patients Record
             </h4>
-            <a href="#">View details</a>
-  
-            <h4>
-              Search Patients Record
-            </h4>
-            <ul>
-                <li class="d-block">John</li>
-                <li class="d-block">Doe</li>
-                <li class="d-block">Tonny</li>
-                <li class="d-block">Jimmy</li>
-                <li class="d-block">Astra</li>
-              </ul>
+            <table class=" table bordered table-hover table-striped table-inverse table-responsive">
+              <caption>Patient Table</caption>
+              <thead class="thead-inverse">
+                
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Disease</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">1</td>
+                    <td>Rehan</td>
+                    <td>afgays@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">2</td>
+                    <td>Mehmood</td>
+                    <td>GFASFaa@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">3</td>
+                    <td>joseph</td>
+                    <td>joseph@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">4</td>
+                    <td>AJay</td>
+                    <td>AJay@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">5</td>
+                    <td>Kapil</td>
+                    <td>Kapil@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">6</td>
+                    <td>Wajahat</td>
+                    <td>Wajahat@gmail.com</td>
+                    <td>T.B</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">7</td>
+                    <td>Muzammil</td>
+                    <td>Muzammil@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">8</td>
+                    <td>Ehsan</td>
+                    <td>Ehsan@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">9</td>
+                    <td>Ajaz</td>
+                    <td>Ajaz@gmail.com</td>
+                    <td>T.B</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">10</td>
+                    <td>Usman</td>
+                    <td>Usman@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                </tbody>
+            </table>
               
             <a href="#">Read more</a>
+     
+          <div style="width: 30vw; ">
+            <h4>
+             Edit Info
+            </h4>
+    
+            <a class="d-block" href="#">Edit</a>
+            <a class="d-block" href="#">Update</a>
+    
+            <h4>
+              Upcoming Appointments
+            </h4>
+    
+            <a class="d-block" href="#">Details</a>
+            <a class="d-block" href="#">Approve</a>
+            <a class="d-block" href="#">Message Patient</a>
+            <a class="d-block" href="#">Check Patients Medical History</a>
            
           </div>
-        
-        <div style="width: 30vw; ">
+        </div>
+        <div class="col-6">
+          
+          <br><br>
           <h4>
-           Edit Info
-          </h4>
+            Succesful Handled Cases
+            </h4>
+            <table class=" table bordered table-hover table-striped table-inverse table-responsive">
+              <caption>Discharged Patients</caption>
+              <thead class="thead-inverse">
+                
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Disease</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    
+                    <td>joseph</td>
+                    <td>joseph@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                  
+                    <td>AJay</td>
+                    <td>AJay@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Ajaz</td>
+                    <td>Ajaz@gmail.com</td>
+                    <td>T.B</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Usman</td>
+                    <td>Usman@gmail.com</td>
+                    <td>Cancer</td>
+                  <tr>
+                    
+                    <td>Kapil</td>
+                    <td>Kapil@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Rehan</td>
+                    <td>afgays@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                  <tr>
+                   
+                    <td>Mehmood</td>
+                    <td>GFASFaa@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Wajahat</td>
+                    <td>Wajahat@gmail.com</td>
+                    <td>T.B</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Muzammil</td>
+                    <td>Muzammil@gmail.com</td>
+                    <td>Dangi</td>
+                  </tr>
+                  <tr>
+                    
+                    <td>Ehsan</td>
+                    <td>Ehsan@gmail.com</td>
+                    <td>Cancer</td>
+                  </tr>
+                 
+                  </tr>
+                </tbody>
+            </table>
   
-          <a class="d-block" href="#">Edit</a>
-          <a class="d-block" href="#">Update</a>
-  
-          <h4>
-            Upcoming Appointments
-          </h4>
-  
-          <a class="d-block" href="#">Details</a>
-          <a class="d-block" href="#">Approve</a>
-          <a class="d-block" href="#">Message Patient</a>
-          <a class="d-block" href="#">Check Patients Medical History</a>
+          
+              <h4>
+                Check Patients Reports
+                 </h4>
          
+                 <a class="d-block" href="#">Reports </a>
+                 <a class="d-block" href="#">Appointment status</a>
+         
+                 <h4>
+                   See salary Details
+                 </h4>
+         
+                 <a class="d-block" href="#">Transfer salary to bank account</a>
+                 <a class="d-block" href="#">Download Salary Slip</a>
+                 <a class="d-block" href="#">More</a>
+                 <a class="d-block" href="#">Contact Finance Department</a>
+       
         </div>
-        <div style="width: 25vw;">
-            <h4>
-              Check Patients Reports
-               </h4>
-       
-               <a class="d-block" href="#">Reports </a>
-               <a class="d-block" href="#">Appointment status</a>
-       
-               <h4>
-                 See salary Details
-               </h4>
-       
-               <a class="d-block" href="#">Transfer salary to bank account</a>
-               <a class="d-block" href="#">Download Salary Slip</a>
-               <a class="d-block" href="#">More</a>
-               <a class="d-block" href="#">Contact Finance Department</a>
-        </div>
-      </section>
+      </div>
+  
+        
+      
+      </div>
   
 
       <footer class="p-5">
@@ -172,8 +324,8 @@
       
       </footer>
   
-      <script src="../js/jquery.js"></script>
-      <script src="../js/bootstrap.min.js"></script>
+      <script src="../../js/jquery.js"></script>
+      <script src="../../js/bootstrap.min.js"></script>
 
   </body>
 </html>
